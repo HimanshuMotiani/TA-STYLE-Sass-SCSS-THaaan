@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-32{
+    flex: 0 1 32%;
+}
+.flex-48{
+    flex: 0 1 48%;
+}
+.flex-40{
+    flex: 0 1 40%;
+}
+.flex-54{
+    flex: 0 1 54%;
+}
+.flex-10{
+    flex:0 1 10%;
+}
+.flex-28{
+    flex: 0 1 28%; 
+}
+.flex-start{
+    align-items: flex-start;
+}
+.flex-31{
+    flex: 0 1 31%;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-22{
+    flex: 0 1 22%;
+}

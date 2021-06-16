@@ -1,0 +1,24 @@
+.page{
+    margin: 5rem auto;
+    .address{
+        margin: 8rem 0;
+        h5{
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+        h6{
+            font-size: 1.2rem;
+            color: #1b1e24;
+        }
+    }
+}
+.circle{
+    text-align: center;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    color: $primary;
+    font-size: 3rem;
+    line-height: 8rem;
+}

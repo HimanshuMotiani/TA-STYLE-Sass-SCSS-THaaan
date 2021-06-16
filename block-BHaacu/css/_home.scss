@@ -1,0 +1,220 @@
+.upper-header {
+  background-color: $primary;
+  color: $tertiary;
+  padding: 0.4rem 0;
+  font-weight: 100;
+  font-size: 1rem;
+  a {
+    margin-left: 1.4rem;
+  }
+}
+.icon-color {
+  color: $tertiary;
+}
+div span {
+  margin: {
+    right: 0.4rem;
+  }
+}
+
+.head-color {
+  color: $primary;
+}
+h2 {
+  color: #222222;
+  font-weight: 700;
+}
+.lower-header {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  a {
+    color: #333333;
+    text-decoration: none;
+    padding: 2.55rem 0.4rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    &:hover {
+      background-color: #eb5f61;
+    }
+  }
+}
+
+.hero {
+  background: url('../assets/media/banner-1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  h6 {
+    margin-bottom: 1rem;
+  }
+  .hero-heading {
+    padding-top: 12rem;
+    padding-left: 4rem;
+    width: 50%;
+  }
+}
+
+///Services
+.all-article {
+  margin: 2rem 0;
+}
+.services {
+  margin: 4rem 0;
+  background-color: $tertiary;
+  h4 {
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  p {
+    color: #8d9399;
+  }
+}
+
+.each-article {
+  border: 1px solid #dee2e6;
+  padding: 2rem;
+  text-align: center;
+
+  p {
+    margin: 1.4rem 0;
+  }
+}
+.btn-primary {
+  @extend .btn;
+  background-color: $tertiary;
+  color: $primary;
+  border: 1px solid $primary;
+}
+.flexible-width {
+  width: 24%;
+}
+h5 {
+  margin: 1rem 0;
+}
+
+//solution
+.solution {
+  background-color: #f8f9fa;
+  margin: 3rem 0;
+
+  .solution-content {
+    padding: 6rem 0;
+    width: 60%;
+    p {
+      margin: 2rem 0;
+    }
+  }
+}
+h3 {
+  font-weight: 800;
+}
+.btn-secondary {
+  @extend .btn;
+  background-color: transparent;
+  color: $primary;
+  border: 1px solid $primary;
+}
+
+//describe
+.describe {
+  margin: 4rem 0;
+  background-color: $tertiary;
+  h4 {
+    font-weight: 800;
+    width: 92%;
+  }
+  p {
+    margin: 2rem 0;
+  }
+}
+
+.width {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-width {
+  width: 16%;
+}
+
+///test
+.test {
+  margin: 8rem 0;
+  background-color: $primary;
+  padding: 4rem 0;
+  h6 {
+    color: $tertiary;
+  }
+  p {
+    color: $tertiary;
+  }
+}
+
+.btn-tertiary {
+  @extend .btn;
+  color: $tertiary;
+  border: 1px solid $tertiary;
+}
+
+//leader
+.leaders h4 {
+  font-weight: 700;
+}
+
+.negative-margin {
+  margin: -8px 0;
+}
+//clients
+.clients {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+  h4 {
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  .gray-scale {
+    filter: grayscale(1);
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}
+.small-img {
+  width: 13%;
+}
+.footer {
+  background-color: #343a3f;
+  padding: 2rem 0;
+  li {
+    margin-top: 1rem;
+    h5 {
+      margin-bottom: 1.8rem;
+      color: #9d9ea0;
+    }
+    a {
+      color: #8a8a8a;
+      font-weight: 400;
+    }
+  }
+
+  .reach-us {
+    a {
+      color: #bdbdbd;
+    }
+  }
+  p {
+    margin-top: 5rem;
+    color: #bdbdbd;
+    font-size: 0.9rem;
+    small {
+      color: #8a8a8a;
+    }
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
