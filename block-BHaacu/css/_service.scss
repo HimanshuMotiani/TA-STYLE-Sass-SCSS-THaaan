@@ -1,0 +1,37 @@
+.service-content{
+    margin: 4rem 0;
+
+    h6{
+        color: $primary;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    h4{
+        font-weight: 700;
+    }
+    p{
+        color: $text;
+    }
+}
+.product {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    p {
+        color: #6c6e70;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: {
+            top: 1rem;
+            bottom: 4rem;
+        }
+    }
+    article {
+        .image-container {
+            width: 5.5rem;
+        }
+        p {
+            color: #38393b;
+            font-weight: 400;
+        }
+    }
+}

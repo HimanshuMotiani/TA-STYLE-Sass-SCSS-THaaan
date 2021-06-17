@@ -1,0 +1,69 @@
+.common-head{
+    background-color: $primary;
+    color: $tertiary;
+    padding: 4rem 0 ;
+    h3{
+        color: $tertiary;
+    }
+}
+.category{
+    margin: 4rem 0;
+    a{
+        font-size: 3rem;
+        color: #343a40;
+        vertical-align: middle;
+    }
+    h6{
+        font-size: 1.4rem;
+        color: #1b1e24;
+        margin-bottom: .4rem;
+    }
+    .each-idea{
+        margin-left: 2rem;
+        margin-bottom: 1.4rem;
+    }
+}
+.width-80{
+    width: 80%;
+}
+.about-leader{
+    margin: 4rem 0;
+
+    h6{
+        color: $primary;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    h4{
+        font-weight: 700;
+    }
+    p{
+        color: $text;
+    }
+}
+.teams{
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    margin: 4rem 0;
+    .all-people{
+        margin-top: 2rem;
+    }
+    h4{
+        font-weight: 700;
+    }
+    p{
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+}
+.people{
+    background-color: $tertiary;
+    h5{
+        font-size: 1.6rem;
+    }
+    h6{
+        color: $primary;
+        font-size: 1rem;
+    }
+}
