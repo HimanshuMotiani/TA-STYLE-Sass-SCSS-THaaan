@@ -131,6 +131,10 @@ a {
   color: #ffffff;
 }
 
+.relative {
+  position: relative;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,19 +246,60 @@ h2 {
 
 .lower-header {
   background-color: #f2f2f2;
-  padding: 1rem;
 }
 
-.lower-header a {
+.lower-header .navbar {
+  display: block;
+}
+
+.lower-header .navbar .height {
+  height: 0;
+}
+
+.lower-header .navbar li .colors {
   color: #333333;
   text-decoration: none;
-  padding: 2.55rem 0.4rem;
   font-size: 1.2rem;
   margin-left: 1rem;
 }
 
-.lower-header a:hover {
+.lower-header .navbar li .colors:hover {
   background-color: #eb5f61;
+  color: #ffffff;
+  padding: 1.5rem 0;
+}
+
+.drop-down {
+  position: absolute;
+  display: none;
+  top: 2.9rem;
+  right: 0;
+  width: 13rem;
+  border-radius: 5px;
+}
+
+.page:hover .drop-down {
+  display: block;
+}
+
+.page:hover .drop-down li {
+  background-color: #6c757d;
+}
+
+.page:hover .drop-down li a {
+  color: #1b1e24;
+}
+
+.blog:hover .drop-down {
+  display: block;
+}
+
+.blog:hover .drop-down li {
+  background-color: #6c757d;
+}
+
+.blog:hover .drop-down li a {
+  color: #1b1e24;
 }
 
 .hero {
@@ -451,6 +496,51 @@ h3 {
 
 .footer p small {
   color: #8a8a8a;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .med-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .med-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .med-height {
+    margin-top: 4rem;
+  }
+  .med-align-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .flex-100 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .flex-48 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 48%;
+            flex: 0 1 48%;
+  }
+  .med-justify-content {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .med-justify-content li {
+    margin-right: 1rem;
+  }
 }
 .common-head {
   background-color: #dc3c45;
